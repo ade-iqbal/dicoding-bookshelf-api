@@ -1,0 +1,4 @@
+# Atur indentasi ke 2 spasi untuk semua file
+[*]
+indent_style = space
+indent_size = 2

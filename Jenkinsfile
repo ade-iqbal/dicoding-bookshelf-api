@@ -7,6 +7,10 @@ pipeline {
         APP_PORT = '3000'
     }
 
+    triggers {
+        githubPush()
+    }
+
     stages {
         stage('Test') {
             steps {

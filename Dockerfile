@@ -15,7 +15,7 @@ COPY . .
 
 # environment variable untuk production
 ENV APP_PORT=3000
-ENV APP_HOST=192.168.72.137
+ENV APP_HOST=0.0.0.0
 
 # Expose port yang digunakan oleh HapiJS (default 3000, sesuaikan jika berbeda)
 EXPOSE 3000

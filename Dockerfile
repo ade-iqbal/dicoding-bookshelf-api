@@ -13,6 +13,9 @@ RUN npm install --production
 # Copy seluruh source code aplikasi
 COPY . .
 
+# environment variable untuk production
+ENV APP_PORT=3000
+
 # Expose port yang digunakan oleh HapiJS (default 3000, sesuaikan jika berbeda)
 EXPOSE 3000
 
